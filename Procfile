@@ -1,0 +1,1 @@
+bridge: /usr/bin/matrix-tinder -r /data/registration.yaml -c /data/config.yaml

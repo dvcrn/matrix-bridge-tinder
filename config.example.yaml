@@ -1,0 +1,33 @@
+# Example config for open source distribution.
+# Copy to `config.yaml` and fill in values locally (do not commit `config.yaml`).
+#
+# This bridge is built on mautrix-go/bridgev2; the full config surface area is larger
+# than shown here. Use this as a starting point and refer to mautrix docs as needed.
+
+homeserver:
+  # e.g. https://matrix.example.com
+  address: "https://matrix.example.com"
+  # e.g. example.com
+  domain: "example.com"
+
+appservice:
+  # Public-facing address (homeserver -> bridge)
+  address: "http://localhost:29320"
+  # The appservice ID from `registration.yaml`
+  id: "CHANGE_ME"
+  # Tokens from `registration.yaml`
+  as_token: "CHANGE_ME"
+  hs_token: "CHANGE_ME"
+
+database:
+  type: "sqlite3-fk-wal"
+  # Recommended: file:bridge.db?_txlock=immediate
+  uri: "file:bridge.db?_txlock=immediate"
+
+logging:
+  # Leave empty to log to stdout, or set a file path like logs/bridge.log
+  file: ""
+
+permissions:
+  # Example: allow a single admin; adjust for your server.
+  "@admin:example.com": "admin"

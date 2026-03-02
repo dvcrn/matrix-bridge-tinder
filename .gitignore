@@ -1,0 +1,26 @@
+# Local config/secrets (keep out of VCS)
+config.yaml
+registration.yaml
+
+# Runtime state
+*.db
+*db-shm
+*db-wal
+*.shm
+*.wal
+*.sqlite
+*.sqlite3
+logs/
+*.log
+
+# Editor/IDE
+.cursor/
+.DS_Store
+
+# Common secret files
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519

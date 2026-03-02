@@ -1,0 +1,13 @@
+# Example Matrix appservice registration for open source distribution.
+# Generate a real `registration.yaml` locally (do not commit it).
+id: "CHANGE_ME"
+url: "http://localhost:29320"
+as_token: "CHANGE_ME"
+hs_token: "CHANGE_ME"
+sender_localpart: "tinderbot"
+rate_limited: false
+namespaces:
+  users:
+    - regex: "@tinder_.+:example.com"
+      exclusive: true
+receive_ephemeral: true

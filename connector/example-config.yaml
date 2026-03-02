@@ -1,0 +1,9 @@
+# Sentry DSN for error tracking. Leave empty to disable Sentry integration.
+# Example: https://examplePublicKey@o0.ingest.sentry.io/0
+sentry_dsn: ""
+
+# Future configuration options can be added here
+# For example:
+# api_endpoint: "https://api.gotinder.com"
+# max_message_age_hours: 168
+# enable_read_receipts: true
