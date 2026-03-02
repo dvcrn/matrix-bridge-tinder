@@ -63,16 +63,3 @@ You need to:
 4. Provide the Tinder refresh token when prompted.
 
 The bridge extracts required auth values (such as `X-Auth-Token` and device ID) from that curl command.
-
-Note: this project is for Tinder, not Bumble.
-
-## Local Data and Secrets
-
-This repo is configured to ignore local runtime and secret files, including:
-
-- `config.yaml`
-- `registration.yaml`
-- `*.db`, `*db-shm`, `*db-wal`
-- `logs/`
-
-Keep credentials local and do not commit generated config or runtime artifacts.
