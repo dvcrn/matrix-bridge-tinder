@@ -8,7 +8,7 @@ require (
 	github.com/dvcrn/go-tinder v0.0.0-20240602080655-1c80d05013a6
 	github.com/getsentry/sentry-go v0.33.0
 	github.com/google/uuid v1.6.0
-	github.com/gorilla/websocket v1.5.1
+	github.com/gorilla/websocket v1.5.3
 	github.com/rs/zerolog v1.34.0
 	go.mau.fi/util v0.8.6
 	maunium.net/go/mautrix v0.23.2
